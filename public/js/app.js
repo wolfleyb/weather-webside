@@ -33,7 +33,8 @@ weatherForm.addEventListener('submit', (e) => {
 
             displayTwo = 'Description is ' + data.forecast.description + '.' +
                             ' Current temp is ' + data.forecast.currentTemp +
-                            ' feels like ' + data.forecast.feelsLike + '.'
+                            ' feels like ' + data.forecast.feelsLike + '. ' +
+                            'Humidity is ' + data.forecast.humidity + '%.'
 
             messageOne.textContent = displayOne
             messageTwo.textContent = displayTwo
